@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Acervo Devocional de Bordados Sagrados — más de 100 matrices de bordado católico listas para usar en cualquier máquina. Acceso de por vida desde USD $7,90." />
-  <title>Acervo Devocional de Bordados Sagrados — Más de 100 Matrices Listas</title>
+  <meta name="description" content="Innovaciones en Ganchillo Moderno — aprende las técnicas más modernas de ganchillo y crea piezas increíbles desde casa. Acceso inmediato desde USD $7,90." />
+  <title>Innovaciones en Ganchillo Moderno — Técnicas Modernas Para Crear Piezas Increíbles</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,12 +16,13 @@
       theme: {
         extend: {
           colors: {
-            primary:   '#1E3A5F',
-            secondary: '#EE6352',
-            success:   '#189700',
-            cream:     '#F6F3EC',
-            skyfade:   '#E8F1FF',
-            surface:   '#EFF1F5',
+            primary:   '#6D2E5B',
+            secondary: '#E9943A',
+            accent:    '#2E8B8B',
+            success:   '#1FA64A',
+            cream:     '#FBF5EE',
+            skyfade:   '#F6E7D7',
+            surface:   '#F3ECE6',
           },
           fontFamily: {
             sans:    ['Manrope', 'sans-serif'],
@@ -29,9 +30,9 @@
           },
           letterSpacing: { tightx: '-0.1px' },
           boxShadow: {
-            soft:  '0 40px 80px rgba(217, 119, 87, 0.24)',
-            card:  '0 10px 30px rgba(30, 58, 95, 0.10)',
-            cta:   '0 12px 24px rgba(24, 151, 0, 0.35)',
+            soft:  '0 40px 80px rgba(109, 46, 91, 0.22)',
+            card:  '0 12px 32px rgba(109, 46, 91, 0.12)',
+            cta:   '0 12px 24px rgba(31, 166, 74, 0.35)',
           },
         },
       },
@@ -40,19 +41,23 @@
 
   <style>
     html { scroll-behavior: smooth; }
-    body { font-family: 'Manrope', sans-serif; color: #111; }
+    body { font-family: 'Manrope', sans-serif; color: #2A1622; background: #FBF5EE; }
     h1, h2, h3, h4 { font-family: 'Inter', sans-serif; }
-    .hero-gradient { background: linear-gradient(180deg, #F6F3EC 0%, #E8F1FF 100%); }
+    .hero-gradient { background: linear-gradient(165deg, #FBF5EE 0%, #F6E7D7 55%, #F1D9C4 100%); }
     .cta-pulse { animation: pulse 2s infinite; }
     @keyframes pulse {
-      0%, 100% { transform: scale(1); box-shadow: 0 12px 24px rgba(24,151,0,0.35); }
-      50%      { transform: scale(1.03); box-shadow: 0 16px 32px rgba(24,151,0,0.5); }
+      0%, 100% { transform: scale(1); box-shadow: 0 12px 24px rgba(31,166,74,0.35); }
+      50%      { transform: scale(1.03); box-shadow: 0 16px 32px rgba(31,166,74,0.5); }
     }
     .pill { border-radius: 180px; }
+    /* CTAs e cards com cantos mais suaves para um visual diferente */
+    .btn-cta { border-radius: 9999px; }
+    .card-round { border-radius: 22px; }
+    /* Placeholder de imagem — sustituir por la imagen final */
     .placeholder-img {
-      background: repeating-linear-gradient(45deg, #f0e9d6, #f0e9d6 12px, #e6dec5 12px, #e6dec5 24px);
-      display: flex; align-items: center; justify-content: center;
-      color: #1E3A5F; font-weight: 700;
+      background: repeating-linear-gradient(45deg, #f3e6d6, #f3e6d6 12px, #ecd9c2 12px, #ecd9c2 24px);
+      display: flex; align-items: center; justify-content: center; text-align: center;
+      color: #6D2E5B; font-weight: 700; padding: 1rem;
     }
     /* Carrossel */
     .scrollbar-hide::-webkit-scrollbar { display: none; }
@@ -114,30 +119,31 @@
 
     <h1 class="font-heading font-extrabold uppercase text-primary tracking-tightx max-w-4xl mt-8
                text-[34px] leading-[1.05] sm:text-[44px] md:text-[54px] lg:text-[60px] lg:leading-[1]">
-      Más de 100 Matrices de Bordado Católico Listas Para Usar En Tu Máquina Hoy Mismo
+      Aprende las Técnicas Más Modernas de Ganchillo y Crea Piezas Increíbles Desde Casa
     </h1>
 
     <p class="italic font-bold text-[#242424] mt-6 text-lg sm:text-xl">
-      Compatible con las principales máquinas domésticas y profesionales
+      Para principiantes y avanzadas — a tu ritmo, paso a paso
     </p>
 
     <p class="max-w-2xl mt-6 text-lg sm:text-xl text-[#1F1F1F] leading-relaxed">
-      Deja de perder horas digitalizando diseño por diseño. Recibe ahora el acervo completo,
-      organizado por categoría y listo para bordar — <strong>del altar a la sacristía</strong>.
+      Descubre el método <strong>Innovaciones en Ganchillo Moderno</strong> y obtén acceso a
+      cientos de ideas exclusivas para crear piezas hermosas, decorar tu hogar o
+      incluso <strong>generar ingresos extra</strong>.
     </p>
 
-    <!-- Mockup do produto -->
+    <!-- Imagem do hero -->
     <div class="mt-10 w-full max-w-lg">
-      <img src="variacao_dibujos_catolicos_es.png"
-           alt="+100 Dibujos Católicos — Acervo Devocional de Bordados Sagrados"
+      <img src="hero.png"
+           alt="Innovaciones en Ganchillo Moderno — piezas tejidas a mano"
            class="w-full h-auto rounded-2xl shadow-soft"
            loading="eager" />
     </div>
 
     <a href="#oferta"
-       class="cta-pulse inline-block mt-10 bg-success hover:bg-[#137A00] text-white font-bold uppercase
-              rounded-xl px-8 py-5 text-lg sm:text-xl tracking-tightx transition-colors">
-      QUIERO MI ACERVO AHORA · PAGO EN MONEDA LOCAL
+       class="cta-pulse inline-block mt-10 bg-success hover:bg-[#178038] text-white font-bold uppercase
+              rounded-full px-8 py-5 text-lg sm:text-xl tracking-tightx transition-colors">
+      QUIERO ACCESO INMEDIATO
     </a>
 
     <p class="mt-4 text-sm text-[#1F1F1F]/70">
@@ -150,40 +156,39 @@
     <div class="max-w-3xl mx-auto text-center">
       <h2 class="font-heading font-extrabold uppercase text-[#242424] tracking-tightx
                  text-[28px] sm:text-[36px] md:text-[44px] leading-tight">
-        Si te interesa el bordado religioso, esto te suena familiar...
+        Si te gusta el ganchillo, esto te suena familiar...
       </h2>
       <p class="mt-4 text-base sm:text-lg text-[#1F1F1F]/70 italic">
-        Bordadora profesional, aficionada, principiante — incluso si <strong>todavía no compraste tu máquina</strong> y estás planeando empezar pronto. Si te gusta el bordado religioso, esto es para ti.
+        No importa si <strong>recién estás empezando</strong> o si ya tejes hace años. Si quieres crear piezas modernas y hermosas, esto es para ti.
       </p>
 
       <div class="mt-10 space-y-5 text-left">
         <div class="flex gap-4 items-start bg-cream rounded-xl p-5">
           <span class="text-secondary text-2xl leading-none" aria-hidden="true">✗</span>
           <p class="text-lg sm:text-xl text-[#1F1F1F] leading-relaxed">
-            Perdiste <strong>horas buscando una matriz buena</strong> en grupos de WhatsApp,
-            descargaste un archivo dañado y encima gastaste hilo en vano.
+            Tejes siempre <strong>los mismos modelos de siempre</strong> y sientes que tus piezas
+            quedaron atrás de las tendencias modernas.
           </p>
         </div>
         <div class="flex gap-4 items-start bg-cream rounded-xl p-5">
           <span class="text-secondary text-2xl leading-none" aria-hidden="true">✗</span>
           <p class="text-lg sm:text-xl text-[#1F1F1F] leading-relaxed">
-            Te frenaste de <strong>empezar (o de bordar más)</strong> porque armar un acervo decente
-            de diseños religiosos cuesta tiempo, dinero — y aun así nunca encontrás todo lo que buscás.
+            Pierdes <strong>horas buscando ideas y patrones</strong> sueltos en internet, y aun así
+            nunca encuentras un paso a paso claro y completo.
           </p>
         </div>
         <div class="flex gap-4 items-start bg-cream rounded-xl p-5">
           <span class="text-secondary text-2xl leading-none" aria-hidden="true">✗</span>
           <p class="text-lg sm:text-xl text-[#1F1F1F] leading-relaxed">
-            Quisiste bordar un <strong>regalo religioso especial</strong> — un manto, un escapulario,
-            una bolsita de oración o un recuerdo de bautismo — y no tenías el diseño a la mano
-            (o no tenías la máquina todavía, pero sabías que un día querrías hacerlo).
+            Quisiste crear <strong>un bolso, un tapete o un cesto moderno</strong> para tu casa o para
+            regalar — y te faltaron las técnicas y los acabados para que quedara profesional.
           </p>
         </div>
         <div class="flex gap-4 items-start bg-cream rounded-xl p-5">
           <span class="text-secondary text-2xl leading-none" aria-hidden="true">✗</span>
           <p class="text-lg sm:text-xl text-[#1F1F1F] leading-relaxed">
-            Pagaste (o descubriste que cobran) caro por matrices sueltas — $5, $10, $15 cada una —
-            y aun así <strong>te quedabas atada a un solo estilo</strong>.
+            Sabes que el ganchillo puede <strong>generarte ingresos extra</strong>, pero no sabes por
+            dónde empezar ni cuánto cobrar por tus piezas.
           </p>
         </div>
       </div>
@@ -195,103 +200,149 @@
     </div>
   </section>
 
-  <!-- ===================== APRESENTAÇÃO DA SOLUÇÃO ===================== -->
+  <!-- ===================== O QUE VAI APRENDER ===================== -->
   <section class="bg-cream py-20 px-5">
     <div class="max-w-4xl mx-auto text-center">
-      <span class="text-secondary font-bold uppercase tracking-widest text-sm">La solución definitiva</span>
+      <span class="text-secondary font-bold uppercase tracking-widest text-sm">El método completo</span>
       <h2 class="font-heading font-extrabold uppercase text-primary tracking-tightx mt-4
                  text-[32px] sm:text-[42px] md:text-[52px] leading-[1.05]">
-        Acervo Devocional de Bordados Sagrados
+        Lo que vas a aprender
       </h2>
       <p class="mt-6 text-xl text-[#1F1F1F] leading-relaxed">
-        Un acervo curado con <strong>más de 100 matrices</strong> de bordado católico ya digitalizadas,
-        probadas y organizadas por categoría — listo para abrir y bordar.
-      </p>
-      <p class="mt-4 text-lg text-[#1F1F1F]/80">
-        Sin búsquedas. Sin archivos rotos. Sin perder ventas.
+        Un método paso a paso para que crees piezas modernas y sofisticadas — desde el
+        primer punto hasta el acabado profesional.
       </p>
 
-      <!-- Categorias -->
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-12 text-left">
-        <div class="bg-white rounded-xl p-5 shadow-card">
-          <h3 class="font-heading font-bold text-primary text-lg">Sagrados Corazones</h3>
-          <p class="text-sm text-[#1F1F1F]/70 mt-1">Jesús y María</p>
+      <!-- Checklist -->
+      <div class="grid sm:grid-cols-2 gap-4 mt-12 text-left">
+        <div class="flex gap-3 items-start bg-white rounded-xl p-5 shadow-card">
+          <span class="text-success text-2xl leading-none" aria-hidden="true">✔️</span>
+          <p class="text-lg text-[#1F1F1F]">Técnicas modernas</p>
         </div>
-        <div class="bg-white rounded-xl p-5 shadow-card">
-          <h3 class="font-heading font-bold text-primary text-lg">Vírgenes</h3>
-          <p class="text-sm text-[#1F1F1F]/70 mt-1">Guadalupe, Fátima, Aparecida y más</p>
+        <div class="flex gap-3 items-start bg-white rounded-xl p-5 shadow-card">
+          <span class="text-success text-2xl leading-none" aria-hidden="true">✔️</span>
+          <p class="text-lg text-[#1F1F1F]">Nuevos puntos decorativos</p>
         </div>
-        <div class="bg-white rounded-xl p-5 shadow-card">
-          <h3 class="font-heading font-bold text-primary text-lg">Cruces y Crucifijos</h3>
-          <p class="text-sm text-[#1F1F1F]/70 mt-1">Clásicas, ornamentadas y devocionales</p>
+        <div class="flex gap-3 items-start bg-white rounded-xl p-5 shadow-card">
+          <span class="text-success text-2xl leading-none" aria-hidden="true">✔️</span>
+          <p class="text-lg text-[#1F1F1F]">Acabados profesionales</p>
         </div>
-        <div class="bg-white rounded-xl p-5 shadow-card">
-          <h3 class="font-heading font-bold text-primary text-lg">Símbolos Litúrgicos</h3>
-          <p class="text-sm text-[#1F1F1F]/70 mt-1">Cáliz, hostia, IHS, custodias</p>
+        <div class="flex gap-3 items-start bg-white rounded-xl p-5 shadow-card">
+          <span class="text-success text-2xl leading-none" aria-hidden="true">✔️</span>
+          <p class="text-lg text-[#1F1F1F]">Cómo combinar colores</p>
         </div>
-        <div class="bg-white rounded-xl p-5 shadow-card">
-          <h3 class="font-heading font-bold text-primary text-lg">Ángeles y Querubines</h3>
-          <p class="text-sm text-[#1F1F1F]/70 mt-1">Para bautismo y primera comunión</p>
+        <div class="flex gap-3 items-start bg-white rounded-xl p-5 shadow-card">
+          <span class="text-success text-2xl leading-none" aria-hidden="true">✔️</span>
+          <p class="text-lg text-[#1F1F1F]">Cómo crear piezas sofisticadas</p>
         </div>
-        <div class="bg-white rounded-xl p-5 shadow-card">
-          <h3 class="font-heading font-bold text-primary text-lg">Frases de Fe</h3>
-          <p class="text-sm text-[#1F1F1F]/70 mt-1">Versículos y oraciones</p>
-        </div>
-        <div class="bg-white rounded-xl p-5 shadow-card">
-          <h3 class="font-heading font-bold text-primary text-lg">Espíritu Santo</h3>
-          <p class="text-sm text-[#1F1F1F]/70 mt-1">Paloma y llamas en variaciones</p>
-        </div>
-        <div class="bg-white rounded-xl p-5 shadow-card">
-          <h3 class="font-heading font-bold text-primary text-lg">Fechas Especiales</h3>
-          <p class="text-sm text-[#1F1F1F]/70 mt-1">Navidad, Pascua y bautismo</p>
+        <div class="flex gap-3 items-start bg-white rounded-xl p-5 shadow-card">
+          <span class="text-success text-2xl leading-none" aria-hidden="true">✔️</span>
+          <p class="text-lg text-[#1F1F1F]">Proyectos para todos los niveles</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===================== GALERIA / O QUE RECEBE (CARROSSEL) ===================== -->
+  <!-- ===================== GALERIA / O QUE VAI CRIAR ===================== -->
   <section class="bg-primary py-20 overflow-hidden">
     <div class="max-w-6xl mx-auto text-center px-5">
-      <span class="text-secondary font-bold uppercase tracking-widest text-sm">Lo que vas a recibir</span>
+      <span class="text-secondary font-bold uppercase tracking-widest text-sm">Lo que vas a crear</span>
       <h2 class="font-heading font-extrabold uppercase text-white tracking-tightx mt-3
                  text-[32px] sm:text-[42px] md:text-[52px] leading-[1.05]">
-        Mira algunos de los bordados que vas a llevarte
+        Mira algunas de las piezas que vas a poder tejer
       </h2>
       <p class="mt-6 text-white/80 text-lg">
-        Cada matriz fue probada en máquina antes de entrar al acervo.
+        Bolsos modernos, tapetes sofisticados, cestos organizadores y mucho más.
       </p>
     </div>
 
     <!-- Grid 3x2 (6 imagens) -->
     <div class="mt-12 max-w-5xl mx-auto px-5">
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
-        <img src="imagens/855191d358ea0788366f3c1b5713f3b3.jpeg"
-             alt="Bordado católico — diseño 1" loading="lazy"
+        <img src="f1.png" alt="Pieza de ganchillo — diseño 1" loading="lazy"
              class="w-full aspect-square object-cover rounded-xl shadow-card border-2 border-white/20" />
-        <img src="imagens/986d5279e1fd90e39ab8a3e77f86ef9b.jpeg"
-             alt="Bordado católico — diseño 2" loading="lazy"
+        <img src="f2.png" alt="Pieza de ganchillo — diseño 2" loading="lazy"
              class="w-full aspect-square object-cover rounded-xl shadow-card border-2 border-white/20" />
-        <img src="imagens/image-1.jpeg"
-             alt="Bordado católico — diseño 3" loading="lazy"
+        <img src="f3.png" alt="Pieza de ganchillo — diseño 3" loading="lazy"
              class="w-full aspect-square object-cover rounded-xl shadow-card border-2 border-white/20" />
-        <img src="imagens/image-2.jpeg"
-             alt="Bordado católico — diseño 4" loading="lazy"
+        <img src="f4.png" alt="Pieza de ganchillo — diseño 4" loading="lazy"
              class="w-full aspect-square object-cover rounded-xl shadow-card border-2 border-white/20" />
-        <img src="imagens/image-4.jpeg"
-             alt="Bordado católico — diseño 5" loading="lazy"
+        <img src="f5.png" alt="Pieza de ganchillo — diseño 5" loading="lazy"
              class="w-full aspect-square object-cover rounded-xl shadow-card border-2 border-white/20" />
-        <img src="imagens/855191d358ea0788366f3c1b5713f3b3.jpeg"
-             alt="Bordado católico — diseño 6" loading="lazy"
+        <img src="f6.png" alt="Pieza de ganchillo — diseño 6" loading="lazy"
              class="w-full aspect-square object-cover rounded-xl shadow-card border-2 border-white/20" />
       </div>
     </div>
 
     <div class="text-center mt-12 px-5">
       <a href="#oferta"
-         class="inline-block bg-secondary hover:bg-[#E14C3A] text-white font-bold uppercase
-                rounded-xl px-8 py-4 text-lg transition-colors">
-        QUIERO EL ACERVO COMPLETO
+         class="inline-block bg-secondary hover:bg-[#D17E26] text-white font-bold uppercase
+                rounded-full px-8 py-4 text-lg transition-colors">
+        QUIERO APRENDER A CREARLAS
       </a>
+    </div>
+  </section>
+
+  <!-- ===================== O QUE RECEBE (PRODUTO + BÔNUS) ===================== -->
+  <section class="bg-cream py-20 px-5">
+    <div class="max-w-5xl mx-auto text-center">
+      <span class="text-secondary font-bold uppercase tracking-widest text-sm">Todo lo que recibes</span>
+      <h2 class="font-heading font-extrabold uppercase text-primary tracking-tightx mt-4
+                 text-[32px] sm:text-[42px] md:text-[52px] leading-[1.05]">
+        Producto principal + 5 bonos exclusivos
+      </h2>
+
+      <!-- Produto principal -->
+      <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-card border-l-4 border-success mt-12 text-left">
+        <span class="text-xs font-bold text-success uppercase">📦 Producto Principal</span>
+        <h3 class="font-heading font-extrabold text-primary text-2xl sm:text-3xl mt-2">Innovaciones en Ganchillo Moderno</h3>
+        <p class="text-[#1F1F1F] mt-2 text-lg">El método completo con las técnicas más modernas de ganchillo, paso a paso, para crear piezas hermosas desde casa.</p>
+      </div>
+
+      <!-- Bônus (destacados, color accent) -->
+      <p class="mt-12 text-accent font-extrabold uppercase tracking-widest text-sm">🎁 Y además, 5 bonos de regalo</p>
+      <div class="grid md:grid-cols-2 gap-6 mt-5 text-left">
+        <div class="bg-accent/5 card-round p-6 shadow-card border-2 border-accent">
+          <div class="flex items-center justify-between gap-2">
+            <span class="bg-accent text-white pill px-3 py-1 text-xs font-extrabold uppercase tracking-wide">🎁 Bono 01</span>
+            <span class="bg-success text-white pill px-3 py-1 text-xs font-extrabold uppercase">Gratis</span>
+          </div>
+          <h3 class="font-heading font-extrabold text-primary text-xl mt-3">1000 Ideas de Ganchillo</h3>
+          <p class="text-[#1F1F1F] mt-2">Un banco gigante de inspiración para que nunca te falten ideas de qué tejer.</p>
+        </div>
+        <div class="bg-accent/5 card-round p-6 shadow-card border-2 border-accent">
+          <div class="flex items-center justify-between gap-2">
+            <span class="bg-accent text-white pill px-3 py-1 text-xs font-extrabold uppercase tracking-wide">🎁 Bono 02</span>
+            <span class="bg-success text-white pill px-3 py-1 text-xs font-extrabold uppercase">Gratis</span>
+          </div>
+          <h3 class="font-heading font-extrabold text-primary text-xl mt-3">Catálogo de Tendencias 2026</h3>
+          <p class="text-[#1F1F1F] mt-2">Los estilos, colores y modelos que serán tendencia para que tus piezas estén siempre al día.</p>
+        </div>
+        <div class="bg-accent/5 card-round p-6 shadow-card border-2 border-accent">
+          <div class="flex items-center justify-between gap-2">
+            <span class="bg-accent text-white pill px-3 py-1 text-xs font-extrabold uppercase tracking-wide">🎁 Bono 03</span>
+            <span class="bg-success text-white pill px-3 py-1 text-xs font-extrabold uppercase">Gratis</span>
+          </div>
+          <h3 class="font-heading font-extrabold text-primary text-xl mt-3">Guía Completa de Materiales</h3>
+          <p class="text-[#1F1F1F] mt-2">Qué hilos, agujas y herramientas usar en cada proyecto — sin gastar de más.</p>
+        </div>
+        <div class="bg-accent/5 card-round p-6 shadow-card border-2 border-accent">
+          <div class="flex items-center justify-between gap-2">
+            <span class="bg-accent text-white pill px-3 py-1 text-xs font-extrabold uppercase tracking-wide">🎁 Bono 04</span>
+            <span class="bg-success text-white pill px-3 py-1 text-xs font-extrabold uppercase">Gratis</span>
+          </div>
+          <h3 class="font-heading font-extrabold text-primary text-xl mt-3">Trabajos en Crochet para el Hogar</h3>
+          <p class="text-[#1F1F1F] mt-2">115 páginas con ilustraciones para crear piezas que decoran toda tu casa, paso a paso.</p>
+        </div>
+        <div class="bg-accent/5 card-round p-6 shadow-card border-2 border-accent md:col-span-2">
+          <div class="flex items-center justify-between gap-2">
+            <span class="bg-accent text-white pill px-3 py-1 text-xs font-extrabold uppercase tracking-wide">🎁 Bono 05</span>
+            <span class="bg-success text-white pill px-3 py-1 text-xs font-extrabold uppercase">Gratis</span>
+          </div>
+          <h3 class="font-heading font-extrabold text-primary text-xl mt-3">Guía para Ganar Dinero con Ganchillo</h3>
+          <p class="text-[#1F1F1F] mt-2">El paso a paso para transformar tu hobby en un ingreso extra: qué vender, cómo cobrar y dónde encontrar clientes.</p>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -300,11 +351,11 @@
     <div class="max-w-5xl mx-auto">
       <h2 class="font-heading font-extrabold uppercase text-[#242424] tracking-tightx text-center
                  text-[28px] sm:text-[36px] md:text-[44px] leading-tight">
-        Lo que cambia en tu rutina a partir de hoy
+        Lo que cambia para ti a partir de hoy
       </h2>
 
       <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-8 mt-14">
-        <!-- Relógio: Más tempo livre -->
+        <!-- Relógio: Aprende rápido -->
         <div class="text-center">
           <div class="w-20 h-20 mx-auto bg-cream rounded-full flex items-center justify-center">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6">
@@ -312,13 +363,13 @@
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 7v5l3 2" />
             </svg>
           </div>
-          <h3 class="font-heading font-semibold text-secondary text-xl mt-5">Más tiempo libre</h3>
+          <h3 class="font-heading font-semibold text-secondary text-xl mt-5">Aprendes a tu ritmo</h3>
           <p class="text-base text-[#1F1F1F] leading-7 mt-3">
-            Se acabó la búsqueda. Abres, eliges y bordas — recuperas horas por semana.
+            Paso a paso, desde casa, cuando quieras. Sin presión y sin horarios.
           </p>
         </div>
 
-        <!-- Velocidade: Atende mais pedidos -->
+        <!-- Velocidade: Piezas modernas -->
         <div class="text-center">
           <div class="w-20 h-20 mx-auto bg-cream rounded-full flex items-center justify-center">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6">
@@ -327,13 +378,13 @@
               <circle cx="12" cy="12" r="1.4" fill="currentColor" stroke="none" />
             </svg>
           </div>
-          <h3 class="font-heading font-semibold text-secondary text-xl mt-5">Atiende más pedidos</h3>
+          <h3 class="font-heading font-semibold text-secondary text-xl mt-5">Piezas modernas</h3>
           <p class="text-base text-[#1F1F1F] leading-7 mt-3">
-            Nunca más pierdas un encargo por falta de diseño. Diversifica y cobra más.
+            Deja atrás los modelos repetidos y crea piezas sofisticadas y actuales.
           </p>
         </div>
 
-        <!-- Escudo: Más segurança -->
+        <!-- Escudo: Acabado profesional -->
         <div class="text-center">
           <div class="w-20 h-20 mx-auto bg-cream rounded-full flex items-center justify-center">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6">
@@ -341,13 +392,13 @@
               <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4" />
             </svg>
           </div>
-          <h3 class="font-heading font-semibold text-secondary text-xl mt-5">Más seguridad</h3>
+          <h3 class="font-heading font-semibold text-secondary text-xl mt-5">Acabado profesional</h3>
           <p class="text-base text-[#1F1F1F] leading-7 mt-3">
-            Matrices probadas, trazo limpio y acabado de tienda de paramentos.
+            Técnicas y detalles para que tus piezas parezcan de tienda.
           </p>
         </div>
 
-        <!-- Liberdade: Mais independência -->
+        <!-- Liberdade: Ingresos extra -->
         <div class="text-center">
           <div class="w-20 h-20 mx-auto bg-cream rounded-full flex items-center justify-center">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6">
@@ -356,54 +407,10 @@
               <path stroke-linecap="round" stroke-linejoin="round" d="M13 12v3a3 3 0 0 0 3 3h0a3 3 0 0 0 3-3v-3" />
             </svg>
           </div>
-          <h3 class="font-heading font-semibold text-secondary text-xl mt-5">Más independencia</h3>
+          <h3 class="font-heading font-semibold text-secondary text-xl mt-5">Ingresos extra</h3>
           <p class="text-base text-[#1F1F1F] leading-7 mt-3">
-            Trabaja desde casa, a tu ritmo, con ingresos extra todos los meses.
+            Transforma tu hobby en una fuente de ingresos vendiendo tus piezas.
           </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== BÔNUS ===================== -->
-  <section class="bg-cream py-20 px-5">
-    <div class="max-w-5xl mx-auto text-center">
-      <span class="text-secondary font-bold uppercase tracking-widest text-sm">Y además recibes</span>
-      <h2 class="font-heading font-extrabold uppercase text-primary tracking-tightx mt-4
-                 text-[32px] sm:text-[42px] md:text-[52px] leading-[1.05]">
-        5 Bonos que valen más que el propio acervo
-      </h2>
-
-      <div class="grid md:grid-cols-2 gap-6 mt-12 text-left">
-        <div class="bg-white rounded-xl p-6 shadow-card border-l-4 border-secondary">
-          <span class="text-xs font-bold text-secondary uppercase">Bono 01</span>
-          <h3 class="font-heading font-bold text-primary text-xl mt-2">Tabla de Precios Sugeridos</h3>
-          <p class="text-[#1F1F1F] mt-2">Sabe exactamente cuánto cobrar por cada tipo de bordado religioso en tu región.</p>
-          <p class="text-success font-bold mt-3">De $17 → gratis</p>
-        </div>
-        <div class="bg-white rounded-xl p-6 shadow-card border-l-4 border-secondary">
-          <span class="text-xs font-bold text-secondary uppercase">Bono 02</span>
-          <h3 class="font-heading font-bold text-primary text-xl mt-2">Pack Premium de Cruces y Crucifijos</h3>
-          <p class="text-[#1F1F1F] mt-2">+15 matrices premium de cruces y crucifijos en distintos estilos — clásicos y ornamentados, ideales para paramentos y piezas litúrgicas.</p>
-          <p class="text-success font-bold mt-3">De $22 → gratis</p>
-        </div>
-        <div class="bg-white rounded-xl p-6 shadow-card border-l-4 border-secondary md:col-span-2">
-          <span class="text-xs font-bold text-secondary uppercase">Bono 03 ★ Nuevo</span>
-          <h3 class="font-heading font-bold text-primary text-xl mt-2">Pack Cristiano Premium</h3>
-          <p class="text-[#1F1F1F] mt-2">Recibe una colección adicional con símbolos cristianos clásicos para ampliar aún más tus opciones de bordado.</p>
-          <p class="text-success font-bold mt-3">De $18 → gratis</p>
-        </div>
-        <div class="bg-white rounded-xl p-6 shadow-card border-l-4 border-secondary md:col-span-2">
-          <span class="text-xs font-bold text-secondary uppercase">Bono 04 ★ Nuevo</span>
-          <h3 class="font-heading font-bold text-primary text-xl mt-2">Kit de Etiquetas Religiosas</h3>
-          <p class="text-[#1F1F1F] mt-2">Más de 20 etiquetas y tags <strong>listas para editar e imprimir</strong> — perfectas para recuerdos de bautismo, primera comunión, regalos religiosos y pedidos personalizados. Personaliza tus creaciones con un toque profesional.</p>
-          <p class="text-success font-bold mt-3">De $24 → gratis</p>
-        </div>
-        <div class="bg-white rounded-xl p-6 shadow-card border-l-4 border-secondary md:col-span-2">
-          <span class="text-xs font-bold text-secondary uppercase">Bono 05</span>
-          <h3 class="font-heading font-bold text-primary text-xl mt-2">Actualizaciones de Por Vida</h3>
-          <p class="text-[#1F1F1F] mt-2">Toda matriz nueva que entre al acervo cae automáticamente en tu acceso. Para siempre.</p>
-          <p class="text-success font-bold mt-3">Valor: incalculable</p>
         </div>
       </div>
     </div>
@@ -414,28 +421,28 @@
     <div class="max-w-3xl mx-auto text-center">
       <h2 class="font-heading font-extrabold uppercase text-white tracking-tightx
                  text-[28px] sm:text-[38px] md:text-[48px] leading-[1.05]">
-        ¿Cuánto tiempo y pedidos vas a seguir perdiendo buscando diseños religiosos en internet?
+        ¿Cuánto tiempo más vas a seguir tejiendo siempre lo mismo?
       </h2>
 
       <ul class="mt-10 space-y-3 text-left max-w-sm mx-auto">
         <li class="flex gap-3 items-center text-white text-lg sm:text-xl">
           <span class="text-success font-bold text-2xl leading-none">✓</span>
-          <span>Atiende más pedidos</span>
+          <span>Creas piezas modernas</span>
         </li>
         <li class="flex gap-3 items-center text-white text-lg sm:text-xl">
           <span class="text-success font-bold text-2xl leading-none">✓</span>
-          <span>Produce más rápido</span>
+          <span>Decoras tu hogar</span>
         </li>
         <li class="flex gap-3 items-center text-white text-lg sm:text-xl">
           <span class="text-success font-bold text-2xl leading-none">✓</span>
-          <span>Trabaja con menos estrés</span>
+          <span>Generas ingresos extra</span>
         </li>
       </ul>
 
       <a href="#oferta"
-         class="cta-pulse inline-block mt-10 bg-success hover:bg-[#137A00] text-white font-bold uppercase
-                rounded-xl px-8 py-5 text-lg sm:text-xl tracking-tightx transition-colors">
-        QUIERO ACCEDER AHORA Y USAR HOY
+         class="cta-pulse inline-block mt-10 bg-success hover:bg-[#178038] text-white font-bold uppercase
+                rounded-full px-8 py-5 text-lg sm:text-xl tracking-tightx transition-colors">
+        QUIERO COMENZAR HOY
       </a>
     </div>
   </section>
@@ -449,8 +456,9 @@
         </span>
         <h2 class="font-heading font-extrabold uppercase text-primary tracking-tightx mt-6
                    text-[30px] sm:text-[38px] md:text-[46px] leading-[1.05]">
-          Todo esto por menos de una matriz suelta
+          Acceso completo inmediato
         </h2>
+        <p class="mt-4 text-lg text-[#1F1F1F]/80">Producto principal + 5 bonos exclusivos</p>
 
         <!-- Selos de destaque -->
         <div class="flex flex-wrap justify-center gap-2 sm:gap-3 mt-8">
@@ -477,42 +485,41 @@
 
         <!-- Imagem do produto -->
         <div class="mt-4 max-w-sm mx-auto">
-          <img src="fcf709ec-7e60-44c0-97c7-3eb8569a7ae2.png"
-               alt="+100 Dibujos Católicos — Paquete completo"
+          <img src="hero.png"
+               alt="Innovaciones en Ganchillo Moderno — paquete completo"
                class="w-full h-auto rounded-xl shadow-card"
                loading="lazy" />
         </div>
 
         <h3 class="font-heading font-extrabold text-primary text-center text-2xl sm:text-3xl mt-6">
-          Acervo Devocional Sagrado + 5 Bonos
+          Innovaciones en Ganchillo Moderno + 5 Bonos
         </h3>
 
-        <ul class="mt-8 space-y-3 text-[#1F1F1F]">
-          <li class="flex gap-3"><span class="text-success font-bold">✓</span> +100 matrices de bordado católico organizadas por categoría</li>
-          <li class="flex gap-3"><span class="text-success font-bold">✓</span> Bono 1: Tabla de Precios Sugeridos</li>
-          <li class="flex gap-3"><span class="text-success font-bold">✓</span> Bono 2: Pack Premium de Cruces y Crucifijos (+15 matrices premium)</li>
-          <li class="flex gap-3"><span class="text-success font-bold">✓</span> <strong>Bono 3: Pack Cristiano Premium (símbolos cristianos clásicos adicionales)</strong></li>
-          <li class="flex gap-3"><span class="text-success font-bold">✓</span> <strong>Bono 4: Kit de Etiquetas Religiosas (+20 etiquetas listas para editar e imprimir)</strong></li>
-          <li class="flex gap-3"><span class="text-success font-bold">✓</span> Bono 5: Actualizaciones de por vida del acervo</li>
-          <li class="flex gap-3"><span class="text-success font-bold">✓</span> Acceso inmediato tras el pago</li>
-          <li class="flex gap-3"><span class="text-success font-bold">✓</span> Compatible con las principales máquinas (.PES .DST .JEF .EXP .VP3 .VIP .HUS .XXX .EMD)</li>
+        <ul class="mt-8 space-y-3 text-[#1F1F1F] font-bold">
+          <li class="flex gap-3"><span class="text-success font-bold">✓</span> <span>Producto principal: Innovaciones en Ganchillo Moderno</span></li>
+          <li class="flex gap-3 items-center bg-accent/10 rounded-lg px-3 py-2"><span class="text-accent font-extrabold">🎁</span> <span class="text-accent font-extrabold">Bono 1:</span> <span>1000 Ideas de Ganchillo</span></li>
+          <li class="flex gap-3 items-center bg-accent/10 rounded-lg px-3 py-2"><span class="text-accent font-extrabold">🎁</span> <span class="text-accent font-extrabold">Bono 2:</span> <span>Catálogo de Tendencias 2026</span></li>
+          <li class="flex gap-3 items-center bg-accent/10 rounded-lg px-3 py-2"><span class="text-accent font-extrabold">🎁</span> <span class="text-accent font-extrabold">Bono 3:</span> <span>Guía Completa de Materiales</span></li>
+          <li class="flex gap-3 items-center bg-accent/10 rounded-lg px-3 py-2"><span class="text-accent font-extrabold">🎁</span> <span class="text-accent font-extrabold">Bono 4:</span> <span>Trabajos en Crochet para el Hogar (115 páginas ilustradas)</span></li>
+          <li class="flex gap-3 items-center bg-accent/10 rounded-lg px-3 py-2"><span class="text-accent font-extrabold">🎁</span> <span class="text-accent font-extrabold">Bono 5:</span> <span>Guía para Ganar Dinero con Ganchillo</span></li>
+          <li class="flex gap-3"><span class="text-success font-bold">✓</span> <span>Acceso inmediato tras el pago</span></li>
         </ul>
 
         <div class="mt-8 text-center border-t border-dashed border-primary/20 pt-6">
-          <p class="text-[#1F1F1F]/60 line-through text-lg">Antes $59,00</p>
-          <p class="text-sm uppercase font-bold text-secondary mt-1">Solo por hoy</p>
-          <p class="font-heading font-extrabold text-primary text-5xl sm:text-6xl mt-1">
+          <p class="text-red-600 line-through decoration-2 text-xl font-bold">De USD $97</p>
+          <p class="text-sm uppercase font-bold text-secondary mt-1">Por solo hoy</p>
+          <p class="font-heading font-extrabold text-success text-5xl sm:text-6xl mt-1">
             USD $7<span class="text-3xl">,90</span>
           </p>
           <p class="text-sm text-[#1F1F1F]/70 mt-1">Pago único · acceso de por vida</p>
         </div>
 
         <a id="btn-checkout-principal"
-           href="https://pay.hotmart.com/L106190324Q?checkoutMode=10"
+           href="https://pay.hotmart.com/W106422215Y?checkoutMode=10"
            target="_blank" rel="noopener"
-           class="cta-pulse block text-center mt-8 bg-success hover:bg-[#137A00] text-white font-bold uppercase
-                  rounded-xl px-6 py-5 text-lg sm:text-xl tracking-tightx transition-colors">
-          QUIERO ACCESO AHORA
+           class="cta-pulse block text-center mt-8 bg-success hover:bg-[#178038] text-white font-bold uppercase
+                  rounded-full px-6 py-5 text-lg sm:text-xl tracking-tightx transition-colors">
+          QUIERO COMENZAR AHORA
         </a>
 
         <div class="flex flex-wrap items-center justify-center gap-3 mt-6 text-sm text-[#1F1F1F]/70">
@@ -569,8 +576,8 @@
         Garantía incondicional de 7 días
       </h2>
       <p class="mt-6 text-lg sm:text-xl text-[#1F1F1F] leading-relaxed">
-        Accede al acervo, descarga las matrices, pruébalas en tu máquina. Si en <strong>7 días</strong>
-        sientes que no vale la inversión, te devolvemos <strong>el 100% del valor pagado</strong>
+        Accede al método, mira las clases y prueba las técnicas. Si en <strong>7 días</strong>
+        sientes que no es para ti, te devolvemos <strong>el 100% del valor pagado</strong>
         sin preguntas y sin trámites. El riesgo lo asumimos nosotros.
       </p>
     </div>
@@ -581,7 +588,7 @@
     <div class="max-w-5xl mx-auto">
       <h2 class="font-heading font-extrabold uppercase text-[#242424] tracking-tightx text-center
                  text-[28px] sm:text-[36px] md:text-[44px] leading-tight">
-        Lo que dicen las bordadoras que ya tienen el acervo
+        Lo que dicen las que ya están tejiendo con el método
       </h2>
 
       <div class="grid md:grid-cols-3 gap-6 mt-12">
@@ -598,8 +605,8 @@
           </div>
           <div class="text-yellow-400 text-lg mb-2" aria-hidden="true">★★★★★</div>
           <p class="text-[#1F1F1F] leading-relaxed">
-            "En una semana ya había pagado la inversión bordando recuerdos de bautismo.
-            Las matrices son limpias y el acabado es como de tienda."
+            "Tejía hace años los mismos modelos. Con este método aprendí puntos modernos
+            y mis piezas quedaron con otra cara. ¡Me encanta!"
           </p>
         </div>
 
@@ -616,15 +623,15 @@
           </div>
           <div class="text-yellow-400 text-lg mb-2" aria-hidden="true">★★★★★</div>
           <p class="text-[#1F1F1F] leading-relaxed">
-            "Cobraba $15 por una matriz suelta. Aquí llevé más de 100 por menos de $20.
-            No tenía idea de que existía algo así."
+            "Empecé desde cero y ya hice mi primer bolso. El paso a paso es muy claro,
+            cualquiera puede seguirlo."
           </p>
         </div>
 
         <div class="bg-cream rounded-xl p-6 shadow-card">
           <div class="flex items-center gap-3 mb-4">
             <img src="https://randomuser.me/api/portraits/women/79.jpg"
-                 alt="Foto de Doña Cleide Ramírez"
+                 alt="Foto de Cleide Ramírez"
                  class="w-14 h-14 rounded-full object-cover border-2 border-white shadow-md"
                  loading="lazy" />
             <div>
@@ -634,8 +641,8 @@
           </div>
           <div class="text-yellow-400 text-lg mb-2" aria-hidden="true">★★★★★</div>
           <p class="text-[#1F1F1F] leading-relaxed">
-            "Hago paramentos para la parroquia de mi pueblo. La categoría de
-            símbolos litúrgicos me salvó en un pedido grande de Pascua."
+            "Con la guía para ganar dinero ya empecé a vender mis tapetes y cestos.
+            Pagué la inversión la primera semana."
           </p>
         </div>
 
@@ -652,8 +659,8 @@
           </div>
           <div class="text-yellow-400 text-lg mb-2" aria-hidden="true">★★★★★</div>
           <p class="text-[#1F1F1F] leading-relaxed">
-            "Compré pensando que serían diseños básicos y me sorprendí.
-            Hay variedad para Vírgenes, Santos y hasta para primera comunión."
+            "Los 150 moldes son una maravilla. Siempre tengo algo nuevo que tejer
+            y nunca me quedo sin ideas."
           </p>
         </div>
 
@@ -670,8 +677,8 @@
           </div>
           <div class="text-yellow-400 text-lg mb-2" aria-hidden="true">★★★★★</div>
           <p class="text-[#1F1F1F] leading-relaxed">
-            "Pagué en pesos directo desde mi tarjeta. Llegó al correo al instante.
-            Las matrices abrieron perfecto en mi Brother."
+            "Pagué en pesos directo desde mi tarjeta y recibí todo al instante en mi correo.
+            Súper fácil."
           </p>
         </div>
 
@@ -688,8 +695,8 @@
           </div>
           <div class="text-yellow-400 text-lg mb-2" aria-hidden="true">★★★★★</div>
           <p class="text-[#1F1F1F] leading-relaxed">
-            "Vendía 3 piezas por semana. Después de variar los diseños del acervo
-            ya estoy vendiendo 10. Vale cada centavo."
+            "Decoré toda mi casa con piezas modernas que aprendí aquí. Mis amigas
+            ya me están pidiendo que les haga las suyas."
           </p>
         </div>
       </div>
@@ -707,27 +714,23 @@
       <div class="mt-10 space-y-4">
         <details class="bg-white rounded-xl p-5 shadow-card group">
           <summary class="cursor-pointer font-bold text-primary text-lg flex justify-between items-center">
-            ¿Funciona en mi máquina?
+            ¿Sirve si soy principiante?
             <span class="text-secondary transition-transform group-open:rotate-45 text-2xl leading-none">+</span>
           </summary>
           <p class="mt-3 text-[#1F1F1F] leading-relaxed">
-            Sí. Las matrices vienen en <strong>9 formatos</strong> para cubrir todas las marcas principales:
-            <strong>.PES</strong> (Brother / Babylock), <strong>.DST</strong> (Tajima),
-            <strong>.JEF</strong> (Janome), <strong>.EXP</strong> (Bernina / Melco),
-            <strong>.VP3</strong> (Husqvarna Viking), <strong>.VIP</strong> (Pfaff / Husqvarna),
-            <strong>.HUS</strong> (Husqvarna), <strong>.XXX</strong> (Singer) y
-            <strong>.EMD</strong> (Elna). Atiende máquinas domésticas y profesionales.
+            Sí. El método está pensado para <strong>todos los niveles</strong>. Empiezas desde lo
+            básico y avanzas paso a paso hasta crear piezas sofisticadas.
           </p>
         </details>
 
         <details class="bg-white rounded-xl p-5 shadow-card group">
           <summary class="cursor-pointer font-bold text-primary text-lg flex justify-between items-center">
-            ¿Cómo recibo el acervo después de la compra?
+            ¿Cómo recibo el acceso después de la compra?
             <span class="text-secondary transition-transform group-open:rotate-45 text-2xl leading-none">+</span>
           </summary>
           <p class="mt-3 text-[#1F1F1F] leading-relaxed">
-            El acceso se libera <strong>al instante</strong> en tu correo. Recibes un enlace
-            para descargar todos los archivos organizados en carpetas por categoría.
+            El acceso se libera <strong>al instante</strong> en tu correo. Recibes todo el material
+            organizado, listo para empezar hoy mismo.
           </p>
         </details>
 
@@ -745,12 +748,12 @@
 
         <details class="bg-white rounded-xl p-5 shadow-card group">
           <summary class="cursor-pointer font-bold text-primary text-lg flex justify-between items-center">
-            ¿Puedo usar las matrices para vender productos bordados?
+            ¿Puedo vender las piezas que aprenda a tejer?
             <span class="text-secondary transition-transform group-open:rotate-45 text-2xl leading-none">+</span>
           </summary>
           <p class="mt-3 text-[#1F1F1F] leading-relaxed">
-            Sí. La licencia es para uso personal y comercial — puedes bordar y vender
-            las piezas. Lo que no se permite es revender las matrices en sí.
+            ¡Claro! De hecho recibes una <strong>guía completa para ganar dinero con ganchillo</strong>
+            que te enseña qué vender, cómo cobrar y dónde encontrar clientes.
           </p>
         </details>
 
@@ -772,7 +775,7 @@
           </summary>
           <p class="mt-3 text-[#1F1F1F] leading-relaxed">
             Sí. Es una condición promocional de lanzamiento. Cuando la oferta termine,
-            el acervo vuelve al valor completo. Si demoras en decidir, vas a pagar más.
+            el método vuelve a su valor completo de USD $97. Si demoras en decidir, vas a pagar más.
           </p>
         </details>
       </div>
@@ -787,18 +790,18 @@
         Tienes dos opciones ahora
       </h2>
       <p class="mt-8 text-white/80 text-lg sm:text-xl leading-relaxed">
-        <strong>Opción 1:</strong> cerrar esta página, seguir buscando matrices en WhatsApp y
-        perdiendo clientes por falta de diseño.
+        <strong>Opción 1:</strong> cerrar esta página y seguir tejiendo siempre lo mismo,
+        sin avanzar a las técnicas modernas.
       </p>
       <p class="mt-4 text-white/80 text-lg sm:text-xl leading-relaxed">
-        <strong>Opción 2:</strong> invertir menos que un café y tener <strong>+100 matrices
-        sagradas + 5 bonos (incluyendo kit de etiquetas, pack premium de cruces y pack cristiano)</strong> en el celular hoy mismo.
+        <strong>Opción 2:</strong> invertir menos que un café y tener el <strong>método completo
+        + 5 bonos exclusivos</strong> para crear piezas increíbles desde hoy mismo.
       </p>
 
       <a id="btn-cta-final" href="#oferta"
-         class="cta-pulse inline-block mt-10 bg-success hover:bg-[#137A00] text-white font-bold uppercase
-                rounded-xl px-8 py-5 text-lg sm:text-xl tracking-tightx transition-colors">
-        QUIERO MI ACERVO POR USD $7,90
+         class="cta-pulse inline-block mt-10 bg-success hover:bg-[#178038] text-white font-bold uppercase
+                rounded-full px-8 py-5 text-lg sm:text-xl tracking-tightx transition-colors">
+        QUIERO COMENZAR POR USD $7,90
       </a>
 
       <p class="mt-5 text-white/60 text-sm">
@@ -808,8 +811,8 @@
   </section>
 
   <!-- ===================== FOOTER ===================== -->
-  <footer class="bg-[#0e1f33] text-white/70 py-10 px-5 text-center text-sm">
-    <p>© <span id="ano"></span> Acervo Devocional de Bordados Sagrados. Todos los derechos reservados.</p>
+  <footer class="bg-[#3A1832] text-white/70 py-10 px-5 text-center text-sm">
+    <p>© <span id="ano"></span> Innovaciones en Ganchillo Moderno. Todos los derechos reservados.</p>
     <p class="mt-2">
       Este sitio no forma parte de Facebook, Instagram o Google. Los testimonios reflejan
       experiencias individuales y no garantizan resultados.
@@ -825,22 +828,6 @@
 
   <script>
     document.getElementById('ano').textContent = new Date().getFullYear();
-
-    // Carrossel "o que recebe"
-    (function () {
-      const carousel = document.getElementById('receive-carousel');
-      const prev = document.getElementById('carousel-prev');
-      const next = document.getElementById('carousel-next');
-      if (!carousel) return;
-      function scrollStep(direction) {
-        const card = carousel.querySelector('.snap-center');
-        const gap = 24;
-        const step = card ? card.offsetWidth + gap : 300;
-        carousel.scrollBy({ left: direction * step, behavior: 'smooth' });
-      }
-      prev && prev.addEventListener('click', () => scrollStep(-1));
-      next && next.addEventListener('click', () => scrollStep(1));
-    })();
   </script>
 </body>
 </html>
