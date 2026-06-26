@@ -10,6 +10,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet" />
 
+  <!-- Preload de la imagen principal (LCP) -->
+  <link rel="preload" as="image" href="hero.webp" fetchpriority="high" />
+
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -89,6 +92,17 @@
   src="https://www.facebook.com/tr?id=1677141090181322&ev=PageView&noscript=1"
   /></noscript>
   <!-- End Meta Pixel Code -->
+
+  <!-- UTMify - Pixel de Conversão -->
+  <script>
+    window.pixelId = "6a3a9a6df933e72668dd3327";
+    var a = document.createElement("script");
+    a.setAttribute("async", "");
+    a.setAttribute("defer", "");
+    a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+    document.head.appendChild(a);
+  </script>
+  <!-- End UTMify -->
 </head>
 <body class="bg-white antialiased">
 
@@ -115,10 +129,11 @@
 
     <!-- Imagem do hero -->
     <div class="mt-10 w-full max-w-lg">
-      <img src="hero.png"
+      <img src="hero.webp"
            alt="Innovaciones en Ganchillo Moderno — piezas tejidas a mano"
            class="w-full h-auto rounded-2xl shadow-soft"
-           loading="eager" />
+           width="1000" height="1250"
+           loading="eager" fetchpriority="high" decoding="async" />
     </div>
 
     <a href="#oferta"
@@ -240,17 +255,17 @@
     <!-- Grid 3x2 (6 imagens) -->
     <div class="mt-12 max-w-5xl mx-auto px-5">
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
-        <img src="f1.png" alt="Pieza de ganchillo — diseño 1" loading="lazy"
+        <img src="f1.webp" alt="Pieza de ganchillo — diseño 1" loading="lazy" decoding="async"
              class="w-full aspect-square object-cover rounded-xl shadow-card border-2 border-white/20" />
-        <img src="f2.png" alt="Pieza de ganchillo — diseño 2" loading="lazy"
+        <img src="f2.webp" alt="Pieza de ganchillo — diseño 2" loading="lazy" decoding="async"
              class="w-full aspect-square object-cover rounded-xl shadow-card border-2 border-white/20" />
-        <img src="f3.png" alt="Pieza de ganchillo — diseño 3" loading="lazy"
+        <img src="f3.webp" alt="Pieza de ganchillo — diseño 3" loading="lazy" decoding="async"
              class="w-full aspect-square object-cover rounded-xl shadow-card border-2 border-white/20" />
-        <img src="f4.png" alt="Pieza de ganchillo — diseño 4" loading="lazy"
+        <img src="f4.webp" alt="Pieza de ganchillo — diseño 4" loading="lazy" decoding="async"
              class="w-full aspect-square object-cover rounded-xl shadow-card border-2 border-white/20" />
-        <img src="f5.png" alt="Pieza de ganchillo — diseño 5" loading="lazy"
+        <img src="f5.webp" alt="Pieza de ganchillo — diseño 5" loading="lazy" decoding="async"
              class="w-full aspect-square object-cover rounded-xl shadow-card border-2 border-white/20" />
-        <img src="f6.png" alt="Pieza de ganchillo — diseño 6" loading="lazy"
+        <img src="f6.webp" alt="Pieza de ganchillo — diseño 6" loading="lazy" decoding="async"
              class="w-full aspect-square object-cover rounded-xl shadow-card border-2 border-white/20" />
       </div>
     </div>
@@ -466,10 +481,10 @@
 
         <!-- Imagem do produto -->
         <div class="mt-4 max-w-sm mx-auto">
-          <img src="hero.png"
+          <img src="hero.webp"
                alt="Innovaciones en Ganchillo Moderno — paquete completo"
                class="w-full h-auto rounded-xl shadow-card"
-               loading="lazy" />
+               width="1000" height="1250" loading="lazy" decoding="async" />
         </div>
 
         <h3 class="font-heading font-extrabold text-primary text-center text-2xl sm:text-3xl mt-6">
